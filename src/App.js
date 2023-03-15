@@ -82,7 +82,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/samuel-dorismond">
+          <Route exact path="/">
             <Route exact path="/" element={<Home listOfProjets={mydata} />} />
             <Route
               exact
