@@ -58,17 +58,17 @@ export default function Header(props){
 
     return (
         <Containt>
-            <Link to='/'>
+            <Link to='/samuel-dorismond'>
                 <h3 className="logo">Dorismond</h3>
             </Link>
             <nav>
-                <Link to='/Apropos'>
+                <Link to='/samuel-dorismond/Apropos'>
                     A propos
                 </Link>
-                <Link to='/Projets'>
+                <Link to='/samuel-dorismond/Projets'>
                     Projets
                 </Link>
-                <Link to='/Contact'>
+                <Link to='/samuel-dorismond/Contact'>
                     Contact
                 </Link>
                 <a href="https://www.linkedin.com/in/samuel-dorismond-a5798321b/">
