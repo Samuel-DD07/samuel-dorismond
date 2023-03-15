@@ -82,15 +82,15 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/samuel-dorismond">
-            <Route exact path="/" element={<Home listOfProjets={mydata} />} />
+          <Route>
+            <Route exact path="/samuel-dorismond" element={<Home listOfProjets={mydata} />} />
             <Route
               exact
-              path="/Projets"
+              path="/samuel-dorismond/Projets"
               element={<Projets listOfProjets={mydata} />}
             />
-            <Route exact path="/Apropos" element={<Apropos />} />
-            <Route exact path="/Contact" element={<Contact />} />
+            <Route exact path="/samuel-dorismond/Apropos" element={<Apropos />} />
+            <Route exact path="/samuel-dorismond/Contact" element={<Contact />} />
           </Route>
         </Routes>
         <Footer />
