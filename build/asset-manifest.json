@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/samuel-dorismond/static/css/main.2c011d20.css",
-    "main.js": "/samuel-dorismond/static/js/main.58d7620d.js",
+    "main.js": "/samuel-dorismond/static/js/main.dfa60173.js",
     "static/media/photo_White.png": "/samuel-dorismond/static/media/photo_White.5ab6b1db1878f45dc4dd.png",
     "static/media/CV-samuel-dorismond.pdf": "/samuel-dorismond/static/media/CV-samuel-dorismond.8a8145d8bb6b7839a94b.pdf",
     "index.html": "/samuel-dorismond/index.html",
     "static/media/close.svg": "/samuel-dorismond/static/media/close.d5e5ff10c4ea1565a78cfe00262a054c.svg",
     "static/media/menu.svg": "/samuel-dorismond/static/media/menu.4e2c9a134d764c0196df2f36ab09eeda.svg",
     "main.2c011d20.css.map": "/samuel-dorismond/static/css/main.2c011d20.css.map",
-    "main.58d7620d.js.map": "/samuel-dorismond/static/js/main.58d7620d.js.map"
+    "main.dfa60173.js.map": "/samuel-dorismond/static/js/main.dfa60173.js.map"
   },
   "entrypoints": [
     "static/css/main.2c011d20.css",
-    "static/js/main.58d7620d.js"
+    "static/js/main.dfa60173.js"
   ]
 }
