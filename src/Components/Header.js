@@ -58,7 +58,7 @@ export default function Header(props){
 
     return (
         <Containt>
-            <Link to='/'>
+            <Link to='/samuel-dorismond'>
                 <h3 className="logo">Dorismond</h3>
             </Link>
             <nav>
