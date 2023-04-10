@@ -40,7 +40,7 @@ export default function Home(props) {
       <Container>
         <Containt className="titre">
           <h1>Samuel Dorismond</h1>
-          <h1>Etudiant / Responsable de developpment</h1>
+          <h1>Etudiant / Responsable de developpement</h1>
         </Containt>
       </Container>
 
