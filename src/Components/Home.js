@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Projets from "./Projets";
 import Apropos from "./Apropos";
 import Contact from "./Contact";
+import React from "react";
 
 export default function Home(props) {
   const { listOfProjets } = props;
@@ -34,7 +35,7 @@ export default function Home(props) {
   //       }
   //   }
   // });
-   
+
   return (
     <div>
       <Container>

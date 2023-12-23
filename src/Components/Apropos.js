@@ -146,9 +146,9 @@ const Containt = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 50px;
         align-items: center;
-        padding: 50px; 
-        height: 100%;
+        padding: 50px;
         transition: 0.5s all;
 
         strong{
@@ -157,7 +157,6 @@ const Containt = styled.div`
 
         h3, span, p{
             text-align: left;
-            margin-bottom: 40px;
             width: 100%;
         }
     }
@@ -173,9 +172,7 @@ const Containt = styled.div`
     .Competences{
         grid-area: 4 / 1 / 5 / 2;
 
-        p{
-            font-size: 3vmin;
-        }
+
     }
 
     @media (max-width: 1200px) {

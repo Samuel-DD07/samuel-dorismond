@@ -5,8 +5,16 @@ import close from '../Assets/close.svg'
 import iconGithub from '../Assets/Github-icons.png'
 import iconLinkedIn from '../Assets/LinkedIn-icons.png'
 import CV from '../Assets/CV-samuel-dorismond.pdf'
+import { useEffect } from "react"
+import { useLocation } from "react-router-dom"
 
 export default function Header(props){
+
+    const location = useLocation()
+
+    useEffect(() => {
+      window.scrollTo(0,0)
+    }, [location.pathname])
 
     let menuStatus = true;
     
@@ -93,7 +101,7 @@ const Containt = styled.header`
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    top: 0;
+    top: 0px;
     width: 100%;
     height: 100px;
     padding: 50px;
