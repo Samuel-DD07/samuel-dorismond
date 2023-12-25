@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function Projets(props) {
   const { listOfProjets } = props;
 
-  listOfProjets.sort((a, b) => {
+  listOfProjets?.sort((a, b) => {
     if (a.Date < b.Date) {
       return 1;
     }

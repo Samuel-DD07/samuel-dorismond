@@ -142,22 +142,22 @@ function App() {
           <Route>
             <Route
               exact
-              path="/samuel-dorismond"
+              path=""
               element={<Home listOfProjets={mydata} />}
             />
             <Route
               exact
-              path="/samuel-dorismond/Projets"
+              path="/Projets"
               element={<Projets listOfProjets={mydata} />}
             />
             <Route
               exact
-              path="/samuel-dorismond/Apropos"
+              path="/Apropos"
               element={<Apropos />}
             />
             <Route
               exact
-              path="/samuel-dorismond/Contact"
+              path="/Contact"
               element={<Contact />}
             />
           </Route>
